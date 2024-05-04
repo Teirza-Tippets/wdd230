@@ -17,7 +17,7 @@ header{
 }
 main{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr , 1fr;
     grid-gap: 1rem;
 }
 
@@ -32,3 +32,5 @@ main{
     background-color: #fff;
     grid-column: 3/5;
 }
+
+
