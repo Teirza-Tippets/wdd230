@@ -30,7 +30,9 @@ img{
 
 nav{
     background-color:#F4D06F;
+    position:center;
     display: flex;
+    flex-direction: column-reverse;
     justify-content:center;
     color: #FFF8F0;
     padding-top: 10px;
