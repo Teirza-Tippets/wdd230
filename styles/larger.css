@@ -24,27 +24,21 @@ img{
 nav{
     background-color:#F4D06F;
     color: #FFF8F0;
-    padding-top: 10px;
+    padding: 0;
+
 }
 
-/* nav a{
-    padding: 1rem;
-    text-decoration: none;
-    color:#392F5A
-} */
 
-/* nav a:hover{
+nav a:hover{
     background-color:burlywood;    padding: 1em;
     min-width: 120px;
     text-decoration: none;
-    padding: 10px;
     color:beige
-} */
+}
 
 main{
     display: grid;
     background-color: #9DD9D2;
-    padding: 70px;
     grid-template-rows: 1fr, 1fr, 1fr;
     grid-template-columns: 1fr, 1fr;
     grid-gap: 1rem;
@@ -58,14 +52,13 @@ h2{
 
 .card1{
     background-color: #FF8811;
-    padding: 1rem;
+    /* padding: 1rem; */
 
 
 }
 .card2{
     background-color: #FF8811;
-    padding: 1rem;
-
+    /* padding: 1rem; */
 
 }
 
