@@ -7,13 +7,6 @@ body{
 }
 
 
-header, main, footer{
-   min-width: auto;
-    margin: 1rem auto;
-    padding: 1rem;
-}
-
-
 header{
     background-color: #392F5A;
     color:#FFF8F0;
@@ -37,8 +30,10 @@ nav{
     padding-top: 10px;
 }
 nav a{
+    display: none;
     padding: 1rem;
     text-decoration: none;
+    color:#392F5A
 }
 
 nav a:hover{

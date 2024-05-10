@@ -1,7 +1,7 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #392F5A;
-    color: #392F5A;
+    background-color: #fefae0;
+    color: #344e41;
 }
 
 
@@ -13,8 +13,8 @@ header, main, footer{
 
 
 header{
-    background-color: #392F5A;
-    color:#FFF8F0;
+    background-color: #fefae0;
+    color:#283618;
     width: 100%;
     margin: 0 auto;
     grid-template-columns: 150px auto;
@@ -46,7 +46,7 @@ img{
 
 
 nav{
-    background-color:#F4D06F;
+    background-color:#dda15e;
     position:center;
     display: flex;
     flex-direction: column;
@@ -70,38 +70,41 @@ nav a:hover{
 
 main{
     text-align: center;
-    background-color: #9DD9D2;
+    background-color: #fefae0;
     padding: 70px;
 }
 
 h2{
     text-decoration: underline;
+    color:#283618
 }
 
 section{
- padding: 30px;
+ padding: 60px;
+ background-color: #a3b18a;
 }
 
-.card{
-    background-color: #FF8811;
+.card2{
+    background-color: #a3b18a;
 
 }
 
 div{
-    background-color:#F4D06F;
+    background-color:#faedcd;
 
 }
 
 .activities{
     text-align: left;
-    background-color:#F4D06F;
+    background-color:#faedcd;
+    padding: 50px;
 }
 
 
 footer{
     text-align: center;
-    background-color:#392F5A;
-    color:#FFF8F0;
+    background-color:#fefae0;
+    color:#bc6c25;
     margin-top: 100px;
     width: 100%;
 }
