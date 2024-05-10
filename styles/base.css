@@ -27,6 +27,24 @@ img{
     padding-left: 30px;
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
 
 nav{
     background-color:#F4D06F;
