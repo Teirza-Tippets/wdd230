@@ -30,12 +30,15 @@ img{
 
 nav{
     background-color:#F4D06F;
-    position:center;
+    position:fixed;
     display: flex;
     flex-direction: row;
-    justify-content:center;
     color: #FFF8F0;
     padding-top: 10px;
+}
+nav a{
+    padding: 1rem;
+    text-decoration: none;
 }
 
 nav a:hover{
