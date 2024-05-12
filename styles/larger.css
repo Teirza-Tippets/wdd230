@@ -1,10 +1,10 @@
-@media screen and( min-width: 700px){
+@media screen and(min-width: 700px){
 
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #392F5A;
     color: #392F5A;
-    grid-template-columns: 1fr, 1fr, 1fr;
+    /* grid-template-columns: 1fr, 1fr, 1fr; */
 }
 
 
@@ -40,9 +40,9 @@ nav a:hover{
 main{
     display: grid;
     background-color: #9DD9D2;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    /* grid-template-rows: 1fr, 1fr, 1fr;
     grid-template-columns: 1fr, 1fr;
-    grid-gap: 1rem;
+    grid-gap: 1rem; */
 }
 
 h2{

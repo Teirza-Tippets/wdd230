@@ -2,7 +2,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #fefae0;
     color: #344e41;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
 }
 
 
@@ -15,9 +15,12 @@ header{
 
 
 img{
-    margin: left;
     padding-top: 30px;
     padding-left: 30px;
+}
+
+h1{
+    text-align: center;
 }
 
 nav{
@@ -33,7 +36,7 @@ nav{
 }
 
 nav a:hover{
-    background-color:burlywood;    padding: 1em;
+    background-color:burlywood; 
     min-width: 120px;
     text-decoration: none;
     padding: 10px;
@@ -98,7 +101,7 @@ footer{
 }
 
 #menu.open::before {
-	content: "❎";
+	content: "X";
 }
 
 .navigation {
@@ -116,7 +119,7 @@ footer{
 	color: #FFF8F0;
 }
 .navigation a:hover {
-	background-color: #bbb;
+	background-color: burlywood;
 	color: #333;
 	font-weight: 700;
 }
