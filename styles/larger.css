@@ -1,86 +1,16 @@
-@media screen and(min-width: 700px){
-
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #392F5A;
-    color: #392F5A;
-    /* grid-template-columns: 1fr, 1fr, 1fr; */
-}
-
-
-header{
-    background-color: #392F5A;
-    color:#FFF8F0;
-    width: 100%;
-}
-
-
-img{
-    justify-content: left;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-
-nav{
-    background-color:#F4D06F;
-    color: #FFF8F0;
-    padding: 0;
-
-}
-
-
-nav a:hover{
-    background-color:burlywood;    padding: 1em;
-    min-width: 120px;
-    text-decoration: none;
-    color:beige
-}
+@media screen and (min-width: 700px){
 
 main{
     display: grid;
-    background-color: #9DD9D2;
-    /* grid-template-rows: 1fr, 1fr, 1fr;
-    grid-template-columns: 1fr, 1fr;
-    grid-gap: 1rem; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
 }
 
 h2{
     text-decoration: underline;
+    grid-column: 1/span 2;
 }
 
-
-
-.card1{
-    background-color: #FF8811;
-    /* padding: 1rem; */
-
-
-}
-.card2{
-    background-color: #FF8811;
-    /* padding: 1rem; */
-
-}
-
-div{
-    background-color:#F4D06F;
-
-}
-
-.activities{
-    text-align: left;
-    background-color:#F4D06F;
-}
-
-
-footer{
-    text-align: center;
-    background-color:#392F5A;
-    color:#FFF8F0;
-    margin-top: 100px;
-    width: 100%;
-}
 
 /* large view navigation ************************************/
 
@@ -109,7 +39,11 @@ footer{
 	}
 
 
-
+iframe{
+    width: 100%;
+    height: auto;
+    grid-column: 1/span 2;
+}
 
 
 }
