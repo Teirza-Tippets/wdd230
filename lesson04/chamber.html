@@ -13,20 +13,31 @@
     <title>Seoul Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <img src="#" alt="logo">
-        <h1>Seoul</h1>
-        <h3>Chamber of Commerce</h3>
+        <img class="logo" src="images/Teirza Tippets.png" alt="logo">
+        <h3>Seoul Chamber of Commerce</h3>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
     </header>
-    <nav class="navigation">
-        <button id="menu"></button>
-        <a href="#">Home</a>
-        <a href="#">Discover</a>
-        <a href="#">Directory</a>
-        <a href="#">Join</a>
-    </nav>
+    <div id="hero">
+        <div id="hero-box">
+            <img id="hero-img" src="images/seoul-7423593_1280.jpg" alt="seoul_city">
+        </div>
+        <section id="hero-msg">
+            <h4>yeet</h4>
+            <div class='button-box'>
+                <a class='book' href="#">Join Now</a>
+            </div>
+        </section>
+    </div>
     <main>
         <section class="events">
             <h2>Events</h2>
@@ -35,7 +46,7 @@
         </section>
 
         <section class="weather">
-            <h2>Weather Forecast for Seoul, South Korea</h2>
+            <h2>Weather Forecast</h2>
             <div>
                 <p>Loading...</p>
                 <p>Weather forecast: <span id="weather-info"></span></p>
@@ -44,11 +55,15 @@
 
         <section class="member-spotlights">
             <h2>Member Spotlight</h2>
-
-            <p>member 1</p>
-            <p>member 2</p>
-            <p>member 3</p>
-            
+            <div class="member-1">
+                <p>member 1</p>
+            </div>
+            <div class="member-2">
+                <p>member 1</p>
+            </div>
+            <div class="member-3">
+                <p>member 1</p>
+            </div>
         </section>
 
     </main> 
@@ -56,6 +71,6 @@
         <p> &copy; <span id="year"></span> | <span id="name"></span> | <span id="project"></span> </p>
         <p> <label>Last Modification: <span id="last-modification"></span></label> </p>
     </footer>
-    <script src="scripts/javascript.js"></script>
+    <script src="script/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    max-width: 650px;
+}
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #FFFFFF ;
+    --secondary-color: #284B63 ;
+    --accent1-color: #353535;
+    --accent2-color: #3C6E71;
+    --accent3-color: #D9D9D9;
+}
+
+header{
+    font-family: "Abril Fatface", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: expanded;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+}
+
+.logo{
+    width: 75px;;
+}
+
+#menu{
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: black;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color: #FFF8F0;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF8F0;
+}
+.navigation a:hover {
+	background-color: var(--accent2-color);
+	color: var(--accent3-color);
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+#hero-img{
+    width: 650px;
+    height: 325px;
+}
+
+#hero-msg h4{
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.button-box{
+    text-align: center;
+}
+
+header, footer{
+    background-color: #284B63;
+    color: #FFFFFF;
+}
+
+main{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-gap: 1rem;
+}
+
+
+.events {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 1rem
+}
+
+
+.events p{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+
+.weather {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.weather div{
+    background-color: var(--accent3-color);
+}
+
+.weather p{
+    text-align: center;
+    color: #353535;
+}
+
+
+.member-spotlights{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 1rem;
+}
+
+.member-spotlights div{
+    background-color: var(--accent3-color);
+}
+
+.member-spotlights p{
+    text-align: center;
+    color: #353535;
+}
+
+
+footer{
+    text-align: center;
+    padding: 1rem;
+}
