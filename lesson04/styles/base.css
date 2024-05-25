@@ -147,6 +147,12 @@ header, footer{
 
 
 footer{
-    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
     padding: 1rem;
+}
+
+.contact-info{
+    text-align: right;
 }
