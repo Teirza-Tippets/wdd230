@@ -12,8 +12,11 @@ document.querySelector('#project').textContent = myProject;
 
 // last mmodified 
 
-let lastModified = new Date(document.lastModified);
-document.querySelector('#last-modification').textContent = lastModified;
+// let lastModified = new Date(document.lastModified);
+// document.querySelector('#last-modification').textContent = lastModified;
+
+let text = document.lastModified;
+document.querySelector('#last-modification').innerHTML = text;
 
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');

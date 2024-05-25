@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
-body{
-    max-width: 650px;
-}
+
 
 :root {
     /* change the values below to your colors from your palette */
@@ -19,13 +17,20 @@ header{
     font-weight: 200;
     font-style: normal;
     font-stretch: expanded;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 1fr 1fr; */
     padding: 1rem;
 }
 
 .logo{
-    width: 75px;;
+    width: 20%;
+    position: absolute;
+    padding: 1rem;
+}
+
+h1{
+    margin-left: 10rem;
 }
 
 #menu{
@@ -43,10 +48,15 @@ header{
 	content: "X";
 }
 
+#hero-img{
+    width: 100%
+}
+
 .navigation {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
+    background-color: var(--secondary-color);
 	color: #FFF8F0;
 }
 
@@ -67,18 +77,18 @@ header{
 .open a {
 	display: block;
 }
-#hero-img{
-    width: 650px;
-    height: 325px;
-}
 
-#hero-msg h4{
-    text-align: center;
-    color: var(--accent1-color);
-}
 
-.button-box{
-    text-align: center;
+.button{
+    background-color: var(--primary-color);
+    color:var(--accent1-color);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 header, footer{
@@ -86,12 +96,9 @@ header, footer{
     color: #FFFFFF;
 }
 
-main{
-    display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    grid-gap: 1rem;
+.info-board{
+    padding-bottom: 1rem;
 }
-
 
 .events {
     background-color: var(--accent2-color);
@@ -129,7 +136,7 @@ main{
     padding: 1rem;
 }
 
-.member-spotlights div{
+.member-spotlights section{
     background-color: var(--accent3-color);
 }
 
@@ -140,6 +147,6 @@ main{
 
 
 footer{
-    text-align: center;
+    text-align: left;
     padding: 1rem;
 }
