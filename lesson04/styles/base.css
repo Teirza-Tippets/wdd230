@@ -91,6 +91,10 @@ h1{
     padding: 1rem;
 }
 
+#mode{
+    margin-left: auto;
+}
+
 header, footer{
     background-color: #284B63;
     color: #FFFFFF;
@@ -140,7 +144,7 @@ header, footer{
     background-color: var(--accent3-color);
 }
 
-.member-spotlights p{
+.member-spotlights h3{
     text-align: center;
     color: #353535;
 }
