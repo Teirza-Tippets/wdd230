@@ -6,6 +6,17 @@ main{
     grid-gap: 1rem;
 }
 
+.hero{
+	grid-column: 1/span 2;
+}
+
+.button{
+	font-size: 2rem;
+	top: 105%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+
 h2{
     text-decoration: underline;
     grid-column: 1/span 2;

@@ -43,10 +43,30 @@ nav a:hover{
     color:beige
 } */
 
+ 
+
 main{
     text-align: center;
     background-color: #fefae0;
     /* padding: 70px; */
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+
+.button{
+    background-color:#fefae0;
+    color:#283618;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 
 h2{
