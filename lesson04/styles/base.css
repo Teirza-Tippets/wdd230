@@ -23,6 +23,10 @@ header{
     padding: 1rem;
 }
 
+#mode{
+    font-size: 2rem;
+}
+
 .logo{
     width: 20%;
     position: absolute;
@@ -79,7 +83,7 @@ h1{
 }
 
 
-.hero img{
+#hero img{
     width: 100%;
     height: auto;
 }
