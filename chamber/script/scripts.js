@@ -38,6 +38,10 @@ const infoBoard = document.querySelector('.info-board');
 const events = document.querySelector('.events');
 const weather = document.querySelector('.weather');
 const memberSpotlights = document.querySelector('.member-spotlights');
+const calendar = document.querySelector('.calendar');
+const attractions = document.querySelector('.attractions');
+const photos = document.querySelector('.local-photos');
+
 
 modeButton.addEventListener('click', () => {
 	if (modeButton.textContent.includes('🕶️')) {
@@ -51,6 +55,12 @@ modeButton.addEventListener('click', () => {
 		footer.style.color = '#fff';
 		events.style.background = '#3A3C44';
 		events.style.color = '#fff';
+		attractions.style.background = '#3A3C44';
+		attractions.style.color = '#fff';
+		calendar.style.background = '#3A3C44';
+		calendar.style.color = '#fff';
+		photos.style.background = '#3A3C44';
+		photos.style.color = '#fff';
 		weather.style.background = '#3A3C44';
 		weather.style.color = '#fff';
 		memberSpotlights.style.background = '#3A3C44';
@@ -69,6 +79,12 @@ modeButton.addEventListener('click', () => {
 		events.style.color = '#fff';
 		weather.style.background = '#3C6E71';
 		weather.style.color = '#fff';
+		attractions.style.background = '#3C6E71';
+		attractions.style.color = '#fff';
+		calendar.style.background = '#3C6E71';
+		calendar.style.color = '#fff';
+		photos.style.background = '#3C6E71';
+		photos.style.color = '#fff';
 		memberSpotlights.style.background = '#3C6E71';
 		memberSpotlights.style.color = '#fff';
 		modeButton.textContent = '🕶️';

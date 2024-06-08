@@ -169,3 +169,61 @@ footer{
 .contact-info{
     text-align: right;
 }
+
+
+
+/* Discover CSS */
+
+#column1{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 1rem
+}
+
+#column2{
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    padding: 1rem
+}
+
+.events{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.attractions{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.attractions p{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.calendar{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.calendar p{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.local-photos{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
+
+.local-photos p{
+    text-align: center;
+    background-color: var(--accent3-color) ;
+    color: #353535;
+}
