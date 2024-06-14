@@ -186,10 +186,11 @@ footer{
     padding: 1rem
 }
 
-.events{
+.events {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
     text-align: center;
-    background-color: var(--accent3-color) ;
-    color: #353535;
+    padding: 1rem
 }
 
 .attractions{
@@ -222,8 +223,26 @@ footer{
     color: #353535;
 }
 
-.local-photos p{
-    text-align: center;
-    background-color: var(--accent3-color) ;
-    color: #353535;
+/* General styles for the image container and images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto;
+    opacity: 0; /* Start with the images invisible */
+    animation: fadeIn 2s forwards; /* Apply the fadeIn animation */
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
