@@ -1,0 +1,23 @@
+/* General styles for the image container and images */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-container img {
+    width: 300px; /* Adjust the size as needed */
+    height: auto;
+    opacity: 0; /* Start with the images invisible */
+    animation: fadeIn 2s forwards; /* Apply the fadeIn animation */
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
