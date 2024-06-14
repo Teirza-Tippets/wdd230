@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Frontend Development course assignment portal">
+    <meta name="author" content="Teirza Tippets">
+    <meta property="og:title" content="Teirza Tippets - WDD230 - Course Home Page">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="https://www.midwestliving.com/thmb/7mbesa8nR-oDv3QdWGhJj9fRzq8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/102862004_w-d2157b0a52554b03a456dec1e8377253.jpg">
+    <meta property="og:url" content="https://teirza-tippets.github.io/wdd230/assignmentportal.html">
+    <title>Teirza Tippets - WDD 230 - Web Frontend</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" width="150" height="200" alt="profile_picture">
+        <h1>Teirza Tippets</h1>
+    </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href="https://teirza-tippets.github.io/wdd230/assignmentportal/index.html">Home</a>
+        <a href="https://teirza-tippets.github.io/wdd230/lesson03/chamber-site-plan.html" target="_blank">Site Plan</a>
+        <a href="https://teirza-tippets.github.io/wdd230/chamber/index.html">Chamber</a>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng&id=p27#p27" target="_blank">Scripture</a>
+    </nav>
+    <main>
+        <h2>Contact Us</h2>
+        <form action="record.html" method="get">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and contain only alphanumeric characters.">
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required pattern="^[a-zA-Z0-9._%+-]+@byui\.edu$" title="A valid byui.edu email address.">
+
+            <label for="rating">Page Rating:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10" step="1" value="5" oninput="document.getElementById('rating-value').textContent = 'Rating: ' + this.value">
+            <span id="rating-value">Rating: 5</span>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> | <span id="name"></span> | <span id="place"></span> </p>
+        <p>
+            <label>Last Modification: <span id="last-modification"></span></label>
+        </p>
+    </footer>
+    <script src="scripts/forms.js"></script>
+    <script src="scripts/getdates.js"></script>
+</body>
+</html>

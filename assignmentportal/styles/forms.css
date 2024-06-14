@@ -1,0 +1,151 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fefae0;
+    color: #344e41;
+    /* grid-template-columns: 1fr; */
+}
+
+
+header{
+    background-color: #fefae0;
+    color:#283618;
+    width: 100%;
+    display: grid;
+}
+
+
+img{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color:#dda15e;
+    display: flex;
+    color: #FFF8F0;
+    /* padding-top: 10px; */
+}
+
+
+main {
+    padding: 2em;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid var(burlywood);
+    border-radius: 10px;
+    background-color: burlywood;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: var(#faedcd);
+    color: #283618;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a3b18a;
+}
+
+#rating-value {
+    display: block;
+    text-align: center;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+footer{
+    text-align: center;
+    background-color:#dda15e;
+    color:#fefae0;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#menu{
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: black;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	color: #FFF8F0;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #FFF8F0;
+}
+.navigation a:hover {
+	background-color: burlywood;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+/* larger view */
+@media screen and (min-width: 1000px){
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #menu {
+        display: none; /* hide hamburger button */
+    }
+    
+    .navigation {
+        flex-direction: row;
+    }
+    
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+}
+
