@@ -49,4 +49,13 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
     }
+
+
+    /* join us larger css */
+
+    .join-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+

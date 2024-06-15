@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD230 Chamber Project Site Plan">
+    <meta name="author" content="Teirza Tippets">
+    <meta property="og:title" content="Teirza Tippets - WDD230 - Chamber Site Plan">
+    <meta property="og:type" content="wedsite">
+    <meta property="og:image" content="https://images.barrons.com/im-86071?width=1280&size=1">
+    <meta property="og:url" content="https://www.barrons.com/articles/great-escapes-food-culture-and-luxury-in-seoul-south-korea-01561757400">
+    <title>Seoul Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/Teirza_Tippets.png" alt="logo">
+        <h1>Seoul Chamber of Commerce</h1>
+        <div id="mode">
+            🕶️
+        </div>
+    </header>
+    <nav class="navigation">
+        <button id="menu"></button>
+        <a href="https://teirza-tippets.github.io/wdd230/chamber/index.html">Home</a>
+        <a href="https://teirza-tippets.github.io/wdd230/chamber/discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+    </nav>
+    <div id="hero">
+        <!-- <picture>
+            <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+            <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+            <img src="images/wdd230-org-large.webp" alt="table setting" width="1500" height="750">
+          </picture> -->
+        <div id="hero-box">
+            <img id="hero-img" src="images/uurepga4.png" alt="seoul_city">
+            <!-- <a class='button' href="#">Join Now</a> -->
+        </div>
+    </div>
+    <header>
+        <h1>Join Us</h1>
+    </header>
+    <main class="join-us">
+        <div class="membership-info">
+            <h2>Membership Levels & Benefits</h2>
+            <div class="membership-level">
+                <h3>Non-Profit</h3>
+                <p>Cost: $50/year</p>
+                <ul>
+                    <li>Access to special events</li>
+                    <li>Basic training materials</li>
+                </ul>
+            </div>
+            <div class="membership-level">
+                <h3>Bronze</h3>
+                <p>Cost: $50/year</p>
+                <ul>
+                    <li>Access to special events</li>
+                    <li>Basic training materials</li>
+                </ul>
+            </div>
+            <div class="membership-level">
+                <h3>Silver</h3>
+                <p>Cost: $100/year</p>
+                <ul>
+                    <li>Access to special events</li>
+                    <li>Advanced training materials</li>
+                    <li>Spotlight advertising on homepage</li>
+                </ul>
+            </div>
+            <div class="membership-level">
+                <h3>Gold</h3>
+                <p>Cost: $200/year</p>
+                <ul>
+                    <li>Access to exclusive events</li>
+                    <li>All training materials</li>
+                    <li>Spotlight advertising on homepage</li>
+                    <li>Event discounts</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="form">
+            <h2>Apply Below</h2>
+            <form method="get" action="thankyou.html" class="f1">
+                <fieldset class="block">
+                    <legend>Applicant Information</legend>
+                        <label>First Name<input type="text" name="fname" required></label>
+                        <label>Last Name<input type="text" name="lname" required></label>
+                        <label>Email<input type="email" name="email" placeholder="example1234@gmail.com" required></label>
+                        <label>Phone<input type="tel" name="tel" required></label>
+                </fieldset>
+                <fieldset class="block">
+                    <legend>Business (Organization)</legend>
+                        <label>Business Name<input type="text" name="bname" required></label>
+                        <label>Title (Position)<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>
+                        <label>Business Description
+                            <textarea rows="5" cols="40" name="bdes" required></textarea>
+                        </label>
+                </fieldset>
+                <fieldset class="block">
+                    <legend>Membership Selection</legend>       
+                        <label class="radio"><input type="radio" name="mlevel" value="NPMembership">Non-Profit</label>
+                        <label class="radio"><input type="radio" name="mlevel" value="Bronze">Bronze</label>
+                        <label class="radio"><input type="radio" name="mlevel" value="Silver">Silver</label>
+                        <label class="radio"><input type="radio" name="mlevel" value="Gold">Gold</label>
+                </fieldset>
+                <input type="hidden" name="date" id="date">
+                <input type="submit" value="Apply for Membership">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="class-info">
+            <p> &copy; <span id="year"></span> | <span id="name"></span> | <span id="project"></span> </p>
+            <p>Last Modification: <span id="last-modification"></span></p>
+        </div>
+
+        <div class="contact-info">
+            <h4>Contact Us :</h4>
+            <p>Imaginary Ave Seoul, South Korea PO Box #0325</p>
+            <p>chambercontactus@gmail.com  | +82 010 1234 4578</p>
+        </div>
+
+    </footer>
+    <script src="script/scripts.js"></script>
+</body>
+</html>
