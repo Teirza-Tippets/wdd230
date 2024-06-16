@@ -1,0 +1,29 @@
+{
+    "familyName": "Tippets",
+    "dateMovedIn": "2016-15-01",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Benjamin Tippets",
+        "gender": "Male",
+        "birthdate": "1980-04-15"
+      },
+      {
+        "name": "Kelly Tippets",
+        "gender": "Female",
+        "birthdate": "1982-08-22"
+      },
+      {
+        "name": "Teirza Tippets",
+        "gender": "Female",
+        "birthdate": "2004-05-10"
+      },
+      {
+        "name": "Taegeon Tippets",
+        "gender": "Male",
+        "birthdate": "2012-11-30"
+      }
+    ]
+  }
+  
