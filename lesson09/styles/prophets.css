@@ -1,0 +1,32 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #cad2c5 ;
+    --secondary-color: #2f3e46 ;
+    --accent1-color: #84a98c;
+    --accent2-color: #52796f;
+    --accent3-color: #354f52;
+}
+
+
+body{
+    font-family: 'Libre Baskerville';
+    background-color: var(--primary-color);
+}
+
+header, footer{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2rem;
+}
+
+
+#cards{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--accent3-color);
+    color: var(--primary-color);
+}
