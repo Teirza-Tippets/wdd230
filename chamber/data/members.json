@@ -12,32 +12,22 @@
 
         {
             "name": "KIA",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
+            "address": "12, Heolleung-ro, Seocho-gu, Seoul, Korea.",
+            "phone": "82-2-3464-1114",
+            "email": "kiacare@kiaindia.net",
+            "url": "https://worldwide.kia.com/int/company/ir/info/company",
             "logo": "images/cars.png",
             "membership-level": "Gold" 
         },
 
         {
             "name": "Hyundai Motor",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
+            "address": " 25, Yulgok-ro 2-gil, Jongno-gu, Seoul Korea (Zip code 03143)",
+            "phone": "82-2-390-1114",
+            "email": "yblee@hyundaicorp.com",
+            "url": "http://www.hyundaicorp.com/en/contact-us/",
             "logo": "images/hyundai.png",
             "membership-level": "Bronze" 
-        },
-
-        {
-            "name": "SM Entertainment",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
-            "logo": "",
-            "membership-level": "Silver" 
         },
 
         {
