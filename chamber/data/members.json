@@ -1,0 +1,94 @@
+{
+    "members":[
+        {
+            "name": "Samsung",
+            "address": "416, Maetan 3-Dong, Yeongtong-Gu, Suwon, Gyeonggi-Do, South Korea, 443-743",
+            "phone": "(800) 726-7864",
+            "email": "ovs12@samyoung.co.kr",
+            "url": "https://www.samsung.com/us/",
+            "logo": "images/samsung.png",
+            "membership-level": "Silver" 
+        },
+
+        {
+            "name": "KIA",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "images/cars.png",
+            "membership-level": "Gold" 
+        },
+
+        {
+            "name": "Hyundai Motor",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "images/hyundai.png",
+            "membership-level": "Bronze" 
+        },
+
+        {
+            "name": "SM Entertainment",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "",
+            "membership-level": "Silver" 
+        },
+
+        {
+            "name": "JYP Entertainment",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "",
+            "membership-level": "Gold" 
+        },
+
+        {
+            "name": "KQ Entertainment",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "",
+            "membership-level": "Non-profit" 
+        },
+
+        {
+            "name": "Kyochon Food & Beverage Co. Ltd",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "",
+            "membership-level": "Silver" 
+        },
+
+        {
+            "name": "CJ Foodville Corporation",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "",
+            "membership-level": "Bronze" 
+        },
+
+        {
+            "name": "Starbucks Corporation",
+            "address": "",
+            "phone": "",
+            "email": "",
+            "url": "",
+            "logo": "images/starbucks.png",
+            "membership-level": "Gold" 
+        }
+    ]
+
+}
