@@ -225,7 +225,7 @@ footer{
 body {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-    background-color: var(--primary-color); /* This should be white now */
+    background-color: var(--primary-color); 
     margin: 0;
     padding: 0;
 }
@@ -235,7 +235,7 @@ main.join-us {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
-    background-color: var(--primary-color); /* Ensure main also has white background */
+    background-color: var(--primary-color); 
 }
 
 .membership-info {
@@ -356,4 +356,72 @@ input[type="submit"]:hover {
 
 .thankyou-note h2{
     color:var(--accent1-color)
+}
+
+/* Discover page */
+
+body {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+main.discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 20px;
+    background-color: var(--primary-color); 
+}
+
+#column1, #column2 {
+    flex: 1;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+    background-color: var(--accent3-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.05);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
