@@ -1,7 +1,7 @@
 const listEl = document.querySelector('#weeks');
 
 const baseURL = "https://teirza-tippets.github.io/wdd230/";
-const linksURL = "https://teirza-tippets.github.io/wdd230/data/links.json";
+const linksURL = "https://teirza-tippets.github.io/wdd230/assignmentportal/data/links.json";
 
 
 async function getLinks() {
