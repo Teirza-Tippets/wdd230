@@ -304,7 +304,7 @@ footer{
 body {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); /* This should be white now */
     margin: 0;
     padding: 0;
 }
@@ -314,6 +314,7 @@ main.join-us {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    background-color: var(--primary-color); /* Ensure main also has white background */
 }
 
 .membership-info {
