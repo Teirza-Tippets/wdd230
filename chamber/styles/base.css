@@ -199,13 +199,21 @@ p {
 
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0.5rem;
     padding: 1rem;
 }
 
-.contact-info{
-    text-align: right;
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+.social-links img {
+    width: 2rem;
+    padding: 0.25rem
 }
 
 /*join page */
