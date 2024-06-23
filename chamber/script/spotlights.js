@@ -6,7 +6,7 @@ async function getSL() {
     const response = await fetch(spotLightURL);
     const data = await response.json();
     console.log(data);
-    let dataSL = data['spotlightss'];
+    let dataSL = data['spotlights'];
     dataSL.forEach(displaySL);
   }
 
