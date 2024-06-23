@@ -183,7 +183,7 @@ p {
     justify-content: space-between;
 }
 
-.member-spotlights section {
+.member-spotlights div {
     flex: 1;
     margin: 0 10px;
     padding: 10px;
@@ -448,4 +448,19 @@ h1 {
 #cards section img {
 
     width: 20%;
+}
+
+
+/* membership spotlights */
+
+.member-spotlights{
+    flex-direction: column;
+
+}
+
+.member-spotlights div{
+    border: 2px solid var(--secondary-color);
+    background-color: var(--accent3-color);
+    margin: 10px 0;
+    padding: 1rem;
 }

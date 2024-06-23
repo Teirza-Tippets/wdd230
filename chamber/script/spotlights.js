@@ -12,7 +12,7 @@ async function getSL() {
 
 function displaySL(data) {
     //section elements list
-    let section = document.createElement('section');
+    let div = document.createElement('div');
     let logo = document.createElement('img');
     let name = document.createElement('h2');
     let url = document.createElement('a');
@@ -43,15 +43,15 @@ function displaySL(data) {
     memLevel.textContent = `${data['membership-level']}`;
 
     //appending loop
-    section.appendChild(logo);
-    section.appendChild(name);
-    section.appendChild(url);
-    section.appendChild(address);
-    section.appendChild(phone);
-    section.appendChild(email);
-    section.appendChild(memLevel);
+    div.appendChild(logo);
+    div.appendChild(name);
+    div.appendChild(url);
+    div.appendChild(address);
+    div.appendChild(phone);
+    div.appendChild(email);
+    div.appendChild(memLevel);
 
-    cards.appendChild(section);
+    cards.appendChild(div);
 
 }
 
