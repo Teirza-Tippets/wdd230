@@ -1,0 +1,34 @@
+{
+    "spotlights":[
+        {
+            "name": "KIA",
+            "address": "12, Heolleung-ro, Seocho-gu, Seoul, Korea.",
+            "phone": "82-2-3464-1114",
+            "email": "kiacare@kiaindia.net",
+            "url": "https://worldwide.kia.com/int/company/ir/info/company",
+            "logo": "images/cars.png",
+            "membership-level": "Gold"
+        },
+
+        {
+            "name": "JYP Entertainment",
+            "address": "205, Gangdong-daero, Gangdong-gu, Seoul",
+            "phone": "02-2225-8100",
+            "email": "privacy@jype.com",
+            "url": "https://www.jype.com/en/JYP",
+            "logo": "images/JYP_Entertainment_Logo.png",
+            "membership-level": "Gold"
+        },
+
+        {
+            "name": "Starbucks Corporation",
+            "address": "112, Sogong-Ro, Jung-Gu, Seoul (04533),Seoul",
+            "phone": "206 318 7100",
+            "email": "press@starbucks.com",
+            "url": "http://www.istarbucks.co.kr",
+            "logo": "images/starbucks.png",
+            "membership-level": "Gold" 
+        }
+    ]
+
+}
