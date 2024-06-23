@@ -32,20 +32,20 @@
 
         {
             "name": "JYP Entertainment",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
+            "address": "205, Gangdong-daero, Gangdong-gu, Seoul",
+            "phone": "02-2225-8100",
+            "email": "privacy@jype.com",
+            "url": "https://www.jype.com/en/JYP",
             "logo": "images/JYP_Entertainment_Logo.png",
             "membership-level": "Gold" 
         },
 
         {
             "name": "KQ Entertainment",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
+            "address": "4F, 3 World Cup buk-ro 6-gil, Mapo-gu, Seou",
+            "phone": "02-3144-0877",
+            "email": "kq_official@kqent.com",
+            "url": "https://kqent.com/",
             "logo": "images/KQ_logo.png",
             "membership-level": "Non-profit" 
         },
@@ -62,20 +62,20 @@
 
         {
             "name": "CJ Foodville Corporation",
-            "address": "",
-            "phone": "",
+            "address": "13453 Kyochon 1991 Building, 15-3, Geumto-ro 80beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do (Geumto-dong)",
+            "phone": "080-320-3000",
             "email": "",
-            "url": "",
+            "url": "https://www.kyochonfnb.com/en/index.do",
             "logo": "images/CJ.png",
             "membership-level": "Bronze" 
         },
 
         {
             "name": "Starbucks Corporation",
-            "address": "",
-            "phone": "",
-            "email": "",
-            "url": "",
+            "address": "112, Sogong-Ro, Jung-Gu, Seoul (04533),Seoul",
+            "phone": "206 318 7100",
+            "email": "press@starbucks.com",
+            "url": "http://www.istarbucks.co.kr",
             "logo": "images/starbucks.png",
             "membership-level": "Gold" 
         }
