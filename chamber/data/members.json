@@ -52,20 +52,20 @@
 
         {
             "name": "Kyochon Food & Beverage Co. Ltd",
-            "address": "",
-            "phone": "",
+            "address": "13453 Kyochon 1991 Building, 15-3, Geumto-ro 80beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do (Geumto-dong)",
+            "phone": "080-320-3000",
             "email": "",
-            "url": "",
+            "url": "https://www.kyochonfnb.com/en/index.do",
             "logo": "images/kyochon.png",
             "membership-level": "Silver" 
         },
 
         {
             "name": "CJ Foodville Corporation",
-            "address": "13453 Kyochon 1991 Building, 15-3, Geumto-ro 80beon-gil, Sujeong-gu, Seongnam-si, Gyeonggi-do (Geumto-dong)",
-            "phone": "080-320-3000",
+            "address": "34 Mareunnae-ro, Jung District, Seoul",
+            "phone": "82 1577-0700",
             "email": "",
-            "url": "https://www.kyochonfnb.com/en/index.do",
+            "url": "https://www.cjfoodville.co.kr/eng/main.asp",
             "logo": "images/CJ.png",
             "membership-level": "Bronze" 
         },
