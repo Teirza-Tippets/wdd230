@@ -427,3 +427,25 @@ section {
 }
 
 /* Directory */
+h1 {
+    color: var(--secondary-color);
+    font-family: (var(--paragraph-font));
+   
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    text-align: center;
+}
+
+#cards section {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    margin: 1rem;
+    padding: 1rem;
+}
+#cards section img {
+
+    width: 20%;
+}
