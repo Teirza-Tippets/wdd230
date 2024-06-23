@@ -36,7 +36,7 @@
             "phone": "",
             "email": "",
             "url": "",
-            "logo": "",
+            "logo": "images/JYP_Entertainment_Logo.png",
             "membership-level": "Gold" 
         },
 
@@ -46,7 +46,7 @@
             "phone": "",
             "email": "",
             "url": "",
-            "logo": "",
+            "logo": "images/KQ_logo.png",
             "membership-level": "Non-profit" 
         },
 
@@ -56,7 +56,7 @@
             "phone": "",
             "email": "",
             "url": "",
-            "logo": "",
+            "logo": "images/kyochon.png",
             "membership-level": "Silver" 
         },
 
@@ -66,7 +66,7 @@
             "phone": "",
             "email": "",
             "url": "",
-            "logo": "",
+            "logo": "images/CJ.png",
             "membership-level": "Bronze" 
         },
 
