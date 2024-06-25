@@ -49,17 +49,25 @@
             </section>
 
             <section class="weather">
-                <h2>Weather Forecast</h2>
+                <h2>Weather</h2>
                 <div>
-                    <p>Loading...</p>
-                    <p>Weather forecast: <span id="weather-info"></span></p>
+                    <ul>
+                        <li><img id="weather-icon" src="" alt=""> | <p><span id="current-temp"></span></p> | <p><span id="desc"></span></p></li>
+                        <p>Temperature: <span id="temperature">45</span>°F</p>
+                        <p>Wind Speed: <span id="windspeed">10</span> mph</p>
+                        <p>Wind Chill: <span id="windchill">N/A</span></p>
+                    </ul>
                 </div>
-                <div id="weather-section">
-                    <p>Temperature: <span id="temperature">45</span>°F</p>
-                    <p>Wind Speed: <span id="windspeed">10</span> mph</p>
-                    <p>Wind Chill: <span id="windchill">N/A</span></p>
+                <div id="number-visits">
+                    <p><span class="label">Number of Visits: 
+                    </span><span class="visits"></span></p>
                 </div>
             </section>
+        </div>
+
+        <div class="forecast">
+            <h2>Three-day Forecast</h2>
+
         </div>
 
         <div class="member-spotlights">
@@ -89,5 +97,6 @@
     <script src="script/scripts.js"></script>
     <script src="script/windchill.js"></script>
     <script src="script/spotlights.js"></script>
+    <script src="script/weather.js"></script>
 </body>
 </html>

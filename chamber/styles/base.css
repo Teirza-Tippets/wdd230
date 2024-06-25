@@ -101,6 +101,8 @@ h1{
     text-decoration: none;
     font-size: 1.5rem;
     padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 #mode{
@@ -172,10 +174,30 @@ p {
     flex-direction: column;
 }
 
-#weather-section {
+.weather ul {
+    list-style: none;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+}
+
+#number-visits {
     background-color: var(--accent3-color);
     padding: 10px;
     border-radius: 5px;
+}
+
+.forecast{
+    width: 80%;
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast h2{
+    text-align: center;
 }
 
 .member-spotlights {
