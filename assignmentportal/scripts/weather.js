@@ -26,9 +26,8 @@ async function apiFetch() {
 function displayResults(data) { 
     let numData = `${data.main.temp}`;
     let numDecimals = parseFloat(numData).toFixed(0);
-    currentTemp.textContent = numDecimals + '°F.';
-    
     let desc = data.weather[0].description;
+    currentTemp.textContent = numDecimals + '°F.';
     captionDesc.textContent = `${desc}`;
     
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
