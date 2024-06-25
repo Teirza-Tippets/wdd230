@@ -3,6 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('#desc');
 
+
 // Declare a const variable named "url" and assign it a valid URL string as given in the openweathermap api documentation.
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=37.55&lon=126.93&units=imperial&appid=9db907be846a0b11f022ac79c8c1fb2a'
 
@@ -27,7 +28,7 @@ function displayResults(data) {
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', 'Weather Icon');
-    
+
     let numData = `${data.main.temp}`;
     let numDecimals = parseFloat(numData).toFixed(0);
     currentTemp.textContent = numDecimals + '°F.';
@@ -38,3 +39,25 @@ function displayResults(data) {
 }
 
 apiFetch();
+
+// three day forecast
+
+const forecast = document.querySelector('#foreData');
+const foreURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=37.55&lon=126.93&units=imperial&appid=9db907be846a0b11f022ac79c8c1fb2a';
+
+async function forecastFetch() {
+    try {
+        const response = await fetch(foreURL);
+        if (response.ok) {
+          const data = await response.json();
+          console.log(data);
+          displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+      } catch (error) {
+          console.log(error);
+      }
+    }
+
+forecastFetch();
