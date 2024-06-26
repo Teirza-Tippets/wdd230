@@ -101,3 +101,19 @@ numVisits++;
 localStorage.setItem("numVisits-ls", numVisits);
 
 // 💡A client can view the localStorage data using the Applications panel in the browsers's DevTools - check it out on any major site.
+
+
+// banner announcement
+document.querySelector(".banner__close").addEventListener("click", function () {
+	this.closest(".banner").style.display = "none";
+  });
+
+document.addEventListener("DOMContentLoaded", function() {
+    const banner = document.getElement(".banner");
+    const daysToShowBanner = [1, 2, 3];
+    const currentDay = new Date().getDay();
+    
+    if (daysToShowBanner.includes(currentDay)) {
+        banner.style.display = "block";
+    }
+});
