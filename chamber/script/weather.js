@@ -42,7 +42,7 @@ apiFetch();
 
 // three day forecast
 
-const forecast = document.querySelector('#foreData');
+const foreDiv = document.querySelector('#foreData');
 const foreURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=37.55&lon=126.93&units=imperial&appid=9db907be846a0b11f022ac79c8c1fb2a';
 
 async function forecastFetch() {
@@ -51,7 +51,7 @@ async function forecastFetch() {
         if (response.ok) {
           const data = await response.json();
           console.log(data);
-          displayResults(data);
+          displayForecast(data);
         } else {
             throw Error(await response.text());
         }
@@ -59,5 +59,26 @@ async function forecastFetch() {
           console.log(error);
       }
     }
+
+
+const displayForecast = (data) => {
+
+  for (let aNum=0; aNum<25; aNum=aNum+8) {
+    if (aNum < 25) {
+
+      let div = document.createElement('div');
+      let tempDate = document.createElement('h3');
+      let fTemp = document.createElement('p');
+
+      fullDate = `${data.list[aNum].dt_txt}`;
+      tempDate.textContent = fullDate.substring(5,10);
+      fTemp.textContent = `${data.list[aNum].main.temp}°F`;
+
+      div.appendChild(tempDate);
+      div.appendChild(fTemp);
+      foreDiv.appendChild(div);
+    }
+  }
+}
 
 forecastFetch();
