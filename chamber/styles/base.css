@@ -182,6 +182,11 @@ p {
     font-size: smaller;
 }
 
+#seoul-weather{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #number-visits {
     background-color: var(--accent3-color);
     padding: 10px;
