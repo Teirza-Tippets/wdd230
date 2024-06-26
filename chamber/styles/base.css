@@ -188,7 +188,8 @@ p {
 }
 
 #number-visits {
-    background-color: var(--accent3-color);
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
     padding: 10px;
     border-radius: 5px;
 }
