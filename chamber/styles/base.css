@@ -227,7 +227,7 @@ p {
 }
 
 .member-spotlights div {
-    background-color: var(--accent3-color);
+    background-color: var(--accent2-color);
     flex: 1;
     margin: 0 10px;
     padding: 10px;
