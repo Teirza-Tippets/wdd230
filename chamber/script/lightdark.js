@@ -5,9 +5,6 @@ const body = document.querySelector('body');
 const header = document.querySelector('header');
 const nav = document.querySelector('.navigation');
 const main = document.querySelector('main');
-const info = document.querySelector('.info-board');
-const section = document.querySelector('section');
-const div = document.querySelector('div')
 const footer = document.querySelector('footer');
 
 
@@ -37,6 +34,8 @@ modeButton.addEventListener('click', () => {
 	}
 });
 
+
+//#003d5c
 
 // --primary-color: #FFFFFF ;
 // --secondary-color: #284B63 ;
