@@ -52,7 +52,7 @@ header{
 }
 
 #menu.open::before {
-	content: "X";
+	content: "✖️";
 }
 
 #hero-img{
