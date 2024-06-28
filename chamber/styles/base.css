@@ -472,22 +472,9 @@ section {
 
 /* Directory */
 
-:root {
-    /* change the values below to your colors from your palette */
-    --primary-color: #F4F4F9 ;
-    --secondary-color: #586F7C ;
-    --accent1-color: #353535;
-    --accent2-color: #2F4550;
-    --accent3-color: #CACFD6;
-
-    --heading-font: 'Abril Fatface', sans-serif;
-    --paragraph-font: 'Alegreya', serif;
-
-}
-
 h1 {
     color: var(--secondary-color);
-    font-family: (var(--paragraph-font));
+    font-family: var(--paragraph-font);
    
 }
 
