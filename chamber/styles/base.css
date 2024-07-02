@@ -145,6 +145,11 @@ main {
     justify-content: space-around;
 }
 
+.events{
+    font-size: medium;
+    text-decoration: none;
+}
+
 section {
     margin-bottom: 20px;
 }
@@ -442,6 +447,8 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
 
 .image-container {
     display: grid;
