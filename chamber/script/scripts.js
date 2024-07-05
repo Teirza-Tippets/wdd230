@@ -56,7 +56,7 @@ document.querySelector(".banner__close").addEventListener("click", function () {
   });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const banner = document.getElement(".banner");
+    const banner = document.querySelector(".banner");
     const daysToShowBanner = [1, 2, 3];
     const currentDay = new Date().getDay();
     
