@@ -423,9 +423,6 @@ h3 {
 }
 
 main.discover {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1rem;
     padding: 20px;
     background-color: var(--primary-color); 
 }

@@ -44,10 +44,11 @@
         grid-column: 1/span 3;
     }
 
-    #discover{
+    main.discover{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 1rem;
+        padding: 20px;
     }
 
 
