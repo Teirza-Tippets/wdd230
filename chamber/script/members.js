@@ -1,6 +1,5 @@
-const memberURL = 'https://teirza-tippets.github.io/wdd230/chamber/data/members.json';
-
 const cards = document.querySelector('#cards');
+const memberURL = 'https://teirza-tippets.github.io/wdd230/chamber/data/members.json';
 
 async function getMem() {
     const response = await fetch(memberURL);
