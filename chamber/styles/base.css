@@ -446,7 +446,7 @@ ul {list-style-type: none;}
 /* Month header */
 .month {
   padding: 60px 20px;
-  background: #1abc9c;
+  background: var(--accent2-color);
   text-align: center;
 }
 
@@ -510,7 +510,7 @@ ul {list-style-type: none;}
 .days li .active {
   padding: 5px;
   background: #1abc9c;
-  color: white !important
+  color: white 
 }
 
 section {
