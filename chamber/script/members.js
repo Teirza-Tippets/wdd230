@@ -1,4 +1,4 @@
-const cards = document.querySelector('#cards');
+const card = document.querySelector('#cards');
 const memberURL = 'https://teirza-tippets.github.io/wdd230/chamber/data/members.json';
 
 async function getMem() {
@@ -50,7 +50,7 @@ function displayMem(data) {
     section.appendChild(email);
     section.appendChild(memLevel);
 
-    cards.appendChild(section);
+    card.appendChild(section);
 
 }
 
