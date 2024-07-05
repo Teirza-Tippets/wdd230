@@ -448,7 +448,15 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
+picture p {
+    background-color: var(--accent3-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+    font-weight: bold ;
+    color: var(--accent2-color);
+}
 
 .image-container {
     display: grid;
