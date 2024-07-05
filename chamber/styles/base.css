@@ -446,7 +446,7 @@ ul {list-style-type: none;}
 /* Month header */
 .month {
   padding: 60px 20px;
-  background: var(--accent2-color);
+  background: #1abc9c;
   text-align: center;
 }
 
