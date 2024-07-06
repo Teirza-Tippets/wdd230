@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+:root{
+    --primary-color: #e0fbfc;
+    --secondary-color: #293241;
+    --accent-color1: #3d5a80;
+    --accent-color2: #ee6c4d;
+    --accent-color3: #98c1d9;
+
+    --header-font: 'Angkor' , serif;
+    --paragraph-font: 'Crimson Text', sans-serif;
+}
