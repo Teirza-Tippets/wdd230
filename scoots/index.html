@@ -16,13 +16,13 @@
 </head>
 <body>
     <header>
-        <img id="logo" alt="scoots logo" src="">
+        <!-- <img id="logo" alt="scoots logo" src="images/logo.png"> -->
         <h1>Scoots Rental</h1>
         <div id="mode">
             🕶️
         </div>
     </header>
-    <nav>
+    <nav class="navigation">
         <button id="menu"></button>
         <a href="#">Home</a>
         <a href="#">Rentals</a>
@@ -31,7 +31,9 @@
     </nav>
     <div id="heroImage">
         <picture>
-             <!-- insert "hero image" -->
+            <source srcset="images/cozumel.webp" media="(max-width: 500px)">
+            <source srcset="images/cozumel-medium.webp" media="(max-width: 750px)">
+            <img src="images/cozumel-large.webp" alt="table setting" width="1000" height="650">
         </picture>
         <div id="resLink">
             <a class="button" href="#">Make Reservation Now</a>
@@ -47,7 +49,7 @@
     </div>
     <main>
         <div id="navInfo">
-            <section class="navigation">
+            <section class="navi">
                 <h3>Navigation Placeholder</h3>
             </section>
             <section class="contact">

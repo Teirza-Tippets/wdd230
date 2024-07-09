@@ -1,0 +1,21 @@
+@media screen and (min-width: 700px) {
+    #logo{
+        width: 7%;
+    }
+
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+        font-size: 1.5rem;
+		display: block;
+		flex: 1 1 100%;
+	}
+
+}
