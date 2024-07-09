@@ -7,7 +7,7 @@ const myName = 'Teirza Tippets';
 document.querySelector('#name').textContent = myName;
 
 // state or country
-const myProject = 'Chamber of Commerce';
+const myProject = 'Scoots Rental - Final Project';
 document.querySelector('#project').textContent = myProject;
 
 // last mmodified 
