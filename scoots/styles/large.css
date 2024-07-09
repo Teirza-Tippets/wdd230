@@ -3,7 +3,9 @@
         width: 7%;
     }
 
-
+	header h1{
+		margin-left: 15rem;
+	}
     #menu {
 		display: none; /* hide hamburger button */
 	}
@@ -18,4 +20,20 @@
 		flex: 1 1 100%;
 	}
 
+	#rentSummary, #weather {
+        width: 100%;
+    }
+
+	#navInfo{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
+
+	/* reservations */
+	main#reserve{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+	}
 }

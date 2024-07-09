@@ -16,13 +16,13 @@
 </head>
 <body>
     <header>
-        <img id="logo" alt="scoots logo" src="">
+        <img id="logo" alt="scoots logo" src="images/logo.png">
         <h1>Scoots Rental</h1>
         <div id="mode">
             🕶️
         </div>
     </header>
-    <nav>
+    <nav class="navigation">
         <button id="menu"></button>
         <a href="#">Home</a>
         <a href="#">Rentals</a>
@@ -31,14 +31,45 @@
     </nav>
     <div id="heroImage">
         <picture>
-             <!-- insert "hero image" -->
+            <source srcset="images/cozumel-small.webp" media="(max-width: 500px)">
+            <source srcset="images/cozumel-medium.webp" media="(max-width: 750px)">
+            <img src="images/cozumel-large.webp" alt="table setting" width="1000" height="650">
         </picture>
         <div id="resLink">
             <a class="button" href="#">Make Reservation Now</a>
         </div> 
     </div>
-    <main>
-        
+    <main id="reserve">
+        <div class="agreements">
+            <h2>Rental Services and Agreements</h2>
+            <div class="rentInfo">
+
+            </div>
+
+        </div>
+        <div id="rentForm">
+            <form method="get" action="thankyou.html" class="f1">
+                <fieldset class="block">
+                    <legend>Applicant Information</legend>
+                        <label>First Name<input type="text" name="fname" required></label>
+                        <label>Last Name<input type="text" name="lname" required></label>
+                        <label>Email<input type="email" name="email" placeholder="example1234@gmail.com" required></label>
+                        <label>Phone<input type="tel" name="tel" required></label>
+                        <label>Home State or Country<input type="text" name="country" placeholder="Texas or United States" required></label>
+                        <label>Cruise Line (if applicable)<input type="text" name="cruise"></label>
+                </fieldset>
+                <fieldset class="block">
+                    <legend>Rental Details</legend>
+                        <label>Rental Type<input type="text" name="bname" required></label>
+                        <label>Duration of Rent<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>
+                        <label>Special Accommodations & Comments
+                            <textarea rows="5" cols="40" name="bdes" placeholder="Ex. Location Drop of Request"  required></textarea>
+                        </label>
+                </fieldset>
+                <input type="hidden" name="date" id="date">
+                <input type="submit" value="Make Reservation">
+            </form>
+        </div>
     </main>
     <footer>
         <div class="class-info">
