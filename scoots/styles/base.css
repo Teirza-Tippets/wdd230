@@ -257,7 +257,7 @@ h2 {
     font-size: large;
 }
 
-#rentForm {
+#rentForm{
     background-color: var(--secondary-color);
     padding: 20px;
     border-radius: 5px;
@@ -351,4 +351,72 @@ input[type="submit"]:hover {
 #cards .details p,
 #cards .details h4 {
     margin: 0.5rem 0;
+}
+
+/* contact us */
+h2 {
+    font-family: var(--header-font);
+    color: var(--accent-color3);
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--accent-color2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid var(--accent-color3);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--accent-color3);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: var(--accent-color1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border: 1px solid var(--accent-color3);
+    border-radius: 5px;
+    font-family: var(--paragraph-font);
+}
+
+input[type="submit"] {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--header-font);
+}
+
+input[type="submit"]:hover {
+    background-color: var(--accent-color3);
+}
+
+input[type="hidden"] {
+    display: none;
 }
