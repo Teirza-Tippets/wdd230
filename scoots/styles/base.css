@@ -314,3 +314,41 @@ input[type="submit"]:hover {
     background-color: var(--accent-color3);
     color: var(--primary-color);
 }
+
+
+/* rentals */
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    text-align: center;
+}
+
+
+#cards section {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#cards section img {
+    width: 20%;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards .details h2, 
+#cards .details p,
+#cards .details h4 {
+    margin: 0.5rem 0;
+}
