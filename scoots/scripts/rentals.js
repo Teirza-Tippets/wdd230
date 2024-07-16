@@ -21,7 +21,7 @@ function displayRent(data) {
 
     //img attributes
     image.setAttribute('src', data.img);
-    image.setAttribute('alt', 'logo');
+    image.setAttribute('alt', 'rental vehicle');
     image.setAttribute('loading', 'lazy');
     image.setAttribute('width', '150');
 
@@ -34,8 +34,8 @@ function displayRent(data) {
    
 
     //h4 elements
-    reserve.textContent = `Reservations:  Half Day - ${data.reservation['halfDay']} - Full Day - ${data.reservation['fullDay']} `;
-    walkIn.textContent = `Walk-Ins:  Half Day - ${data.walkIN['halfDay']} - Full Day - ${data.walkIN['fullDay']} `;
+    reserve.textContent = `Reservations:  Half Day - ${data.reservation} - Full Day - ${data.reservation} `;
+    walkIn.textContent = `Walk-Ins:  Half Day - ${data.walkIN} - Full Day - ${data.walkIN} `;
 
 
     //appending loop
