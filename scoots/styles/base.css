@@ -219,6 +219,52 @@ iframe{
     color: var(--primary-color);
 }
 
+.weather {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather ul {
+    list-style: none;
+    padding: 0;
+    font-family: var(--paragraph-font);
+    font-size: smaller;
+}
+
+#cozumel-weather{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.forecast{
+    width: 80%;
+    background-color: var(--accent-color2);
+    padding: 20px;
+    margin-left: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.forecast h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#foreData{
+    display:flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+    color: var(--accent-color3);
+}
+
+#foreData div{
+    margin: 0.25rem;
+    background-color: var(--accent2-color);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 
 /* footer */
 footer{
