@@ -181,6 +181,28 @@ main {
 .navi h3, .contact h3, #rentSummary h3, #weather h3 {
     font-family: var(--header-font);
     color: var(--accent-color3);
+    text-align: center;
+}
+
+.navi p{
+    text-align: center;
+}
+
+iframe{
+    width: fit-content;
+    
+}
+
+#rentSummary{
+    text-align: center;
+}
+
+#rentSummary strong{
+    text-decoration: underline ;
+}
+
+.contact{
+    text-align: center;
 }
 
 #conButton .button {
