@@ -327,17 +327,17 @@ h2 {
 }
 
 table {
-    width: 100%;
+    width: auto;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin: 10px 0;
     font-family: var(--paragraph-font);
     background-color: var(--primary-color);
     color: var(--accent-color1);
 }
 
 th, td {
-    border: 1px solid var(--accent-color3);
-    padding: 12px;
+    /* border: 1px solid var(--accent-color3); */
+    padding: 8px;
     text-align: center;
 }
 
@@ -465,41 +465,46 @@ input[type="submit"]:hover {
 }
 
 /* contact us */
+
 h2 {
     font-family: var(--header-font);
     color: var(--accent-color3);
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
 }
 
 .contactus {
-    max-width: 600px;
-    margin: 20px auto;
     padding: 20px;
-    background-color: var(--accent-color2);
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactus > div {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 fieldset {
-    border: 1px solid var(--accent-color3);
-    border-radius: 5px;
+    border: 2px solid var(--accent-color2);
+    margin-bottom: 20px;
     padding: 10px;
+    border-radius: 8px;
 }
 
 legend {
     font-weight: bold;
-    color: var(--accent-color3);
+    color: var(--accent-color1);
 }
 
 label {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-bottom: 10px;
     color: var(--accent-color1);
 }
@@ -508,26 +513,38 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
+    width: calc(100% - 22px);
     padding: 10px;
-    border: 1px solid var(--accent-color3);
-    border-radius: 5px;
-    font-family: var(--paragraph-font);
+    margin-top: 5px;
+    border: 1px solid var(--accent-color2);
+    border-radius: 4px;
 }
 
 input[type="submit"] {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color3);
     color: var(--primary-color);
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
-    font-family: var(--header-font);
 }
 
 input[type="submit"]:hover {
-    background-color: var(--accent-color3);
+    background-color: var(--accent-color2);
 }
 
-input[type="hidden"] {
-    display: none;
+#inPerson {
+    text-align: center;
+}
+
+#inPerson p {
+    font-size: 1.1em;
+    color: var(--accent-color1);
+}
+
+iframe {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    height: 450px;
 }
