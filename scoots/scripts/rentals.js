@@ -29,13 +29,13 @@ function displayRent(data) {
     type.textContent = `${data.type}`;
 
 
-    //p for address & phone #
-    numPersons.textContent = `${data.numPersons}`;
+    //p max persons
+    numPersons.textContent = `${data.maxPersons}`;
    
 
     //h4 elements
-    reserve.textContent = `Reservations:  Half Day - ${data.reservation} - Full Day - ${data.reservation} `;
-    walkIn.textContent = `Walk-Ins:  Half Day - ${data.walkIN} - Full Day - ${data.walkIN} `;
+    reserve.textContent = `Reservations:  Half Day - ${data.reservation[1]} - Full Day - ${data.reservation[2]} `;
+    walkIn.textContent = `Walk-Ins:  Half Day - ${data['halfDay']} - Full Day - ${data.walkIN[2]} `;
 
 
     //appending loop
