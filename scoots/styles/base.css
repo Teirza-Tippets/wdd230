@@ -429,6 +429,11 @@ input[type="submit"]:hover {
 
 /* rentals */
 
+#rentalName h2{
+    color: var(--primary-color);
+    margin-left: 10rem;
+}
+
 #cards {
     display: flex;
     flex-wrap: wrap;
