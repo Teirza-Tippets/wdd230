@@ -7,7 +7,7 @@ async function getRentals() {
     console.log(data);
     let dataRent = data['rentals'];
     dataRent.forEach(displayRent);
-  }
+}
 
 function displayRent(data) {
     //section elements list
@@ -18,7 +18,6 @@ function displayRent(data) {
     let walkIn = document.createElement('h4');
     let numPersons = document.createElement('p');
 
-
     //img attributes
     image.setAttribute('src', data.img);
     image.setAttribute('alt', 'rental vehicle');
@@ -28,15 +27,12 @@ function displayRent(data) {
     //h2 elements
     type.textContent = `${data.type}`;
 
-
     //p max persons
-    numPersons.textContent = `${data.maxPersons}`;
-   
+    numPersons.textContent = `Max Persons: ${data.maxPersons}`;
 
     //h4 elements
-    reserve.textContent = `Reservations:  Half Day - ${data.reservation[1]} - Full Day - ${data.reservation[2]} `;
-    walkIn.textContent = `Walk-Ins:  Half Day - ${data['halfDay']} - Full Day - ${data.walkIN[2]} `;
-
+    reserve.textContent = `Reservations: Half Day - ${data.reservation[0].halfDay} - Full Day - ${data.reservation[0].fullDay}`;
+    walkIn.textContent = `Walk-Ins: Half Day - ${data.walkIN[0].halfDay} - Full Day - ${data.walkIN[0].fullDay}`;
 
     //appending loop
     div.appendChild(image);
@@ -46,7 +42,6 @@ function displayRent(data) {
     div.appendChild(walkIn);
 
     cards.appendChild(div);
-
 }
 
 getRentals();
